@@ -1,0 +1,78 @@
+section.destaques{
+    color: #fff;
+    padding-top: 50px;
+}
+section.destaques h2{
+   margin-bottom: 20px;
+   font-size: 30px;
+   position: relative;
+   display: table;
+   margin: 0 auto 40px;
+}
+
+section.destaques h2::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: -20px;
+    right: -33px;
+    z-index: 1000;
+    background-image: url('/assets/img/estrela-after.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 61px;
+    height: 55px;
+    transition: all 0.5s;
+    animation-name: star-victor;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+ }
+section.destaques hr{
+    opacity: 0.5;
+}
+section.destaques p{
+    text-align: justify;
+    max-width: 80%;
+    margin: 40px auto;
+}
+section.destaques a.botao-desque {
+    background-color: #2da77a;
+    color: #fff;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    border-radius: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+section.destaques a.botao-desque:hover {
+    background-color:  #1a7855;
+}
+
+@keyframes star-victor {
+    0%   {
+        filter: brightness(1);
+        filter: contrast(1);
+        -webkit-filter: brightness(1);
+        -webkit-filter: contrast(1);
+    }
+    50%  {
+        filter: brightness(1.4);
+        filter: contrast(1.4);
+        -webkit-filter: brightness(1.4);
+        -webkit-filter: contrast(1.4);
+    }
+    100% {
+        filter: brightness(2);
+        filter: contrast(2);
+        -webkit-filter: brightness(2);
+        -webkit-filter: contrast(2);
+    }
+}

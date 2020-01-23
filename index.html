@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pequeno Projeto Shopper</title>
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/section.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/busca.css">
+    <link rel="stylesheet" href="/assets/css/conteudo.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+<body>
+    <div id="main">
+        <header>
+            <h1>Projeto Mercado</h1>
+            <nav class="menu-nav">
+                <a href="index.html">Home</a>
+                <a href="categorias.html">Categoriais</a>
+                <a href="faq.html">Faq</a>
+                <a href="add.html">Item Adicional</a>
+                <a href="add.html">Item Adicional</a>
+
+            </nav>
+            <nav class="login-nav">
+                <a href="login.html">login</a>
+                <a href="cadastro.html">Cadastro</a>
+            </nav>
+        </header>
+
+        <section class="destaques">
+            <h2>Titulo de um destaque</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex earum, reprehenderit, repellat neque officiis deserunt, harum cum magnam iure fugit accusantium dicta eveniet quia numquam dolor natus tempora ad non.</p>
+            <hr>
+            <a href class="botao-desque">Veja mais!</a>
+        </section>
+
+        <main>
+            <div class="busca">
+                <div class="grupo-input">
+                    <label for="filtro_categoria">Filtar Por Categoria:</label>
+                    <select name="filtro_categoria" id="filtro_categoria">
+
+                        <option value="">Selecione</option>
+                        <option value="Paes">Paes</option>
+                        <option value="Frios">Frios</option>
+                        <option value="Produtos-de-limpeza">Produtos de limpeza</option>
+                        <option value="Legumes">Legumes</option>
+                    </select>
+                </div>
+
+                <div class="grupo-input">
+                <label for="input_busca">Busque por um produto:</label>
+                <input type="text" name="input_busca" id="input_busca" placeholder="Digite...">
+                </div>
+
+                <div class="grupo-input">
+                    <div class="busca-botao"><i class="fas fa-search-dollar"></i></div>
+                </div>
+            </div>
+
+
+            <!--conteudo-->
+
+            <section id="top-produtos">
+                <h2>Top Produtos</h2>
+                <hr>
+                <div class="produtos">
+                    <article>
+                        <figure>
+                            <img src="assets/img/produtos/presunto-sadia.jpg" alt="Presunto Sadia">
+                        </figure>
+                        <h3>Presunto</h3>
+                        <div class="add-carinho">
+                            <span class="menos"><i class="fas fa-minus-circle"></i></span>
+                            <span class="qtd">0</span>
+                            <span class="mais"><i class="fas fa-plus-circle"></i></span>
+                        </div>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="assets/img/produtos/empanado-seara.jpg" alt="Empanado Seara">
+                        </figure>
+                        <h3>Empanado Seara</h3>
+                        <div class="add-carinho">
+                            <span class="menos"><i class="fas fa-minus-circle"></i></span>
+                            <span class="qtd">0</span>
+                            <span class="mais"><i class="fas fa-plus-circle"></i></span>
+                        </div>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="assets/img/produtos/texas-seara.jpg" alt="Texas Seara">
+                        </figure>
+                        <h3>Texas Seara</h3>
+                        <div class="add-carinho">
+                            <span class="menos"><i class="fas fa-minus-circle"></i></span>
+                            <span class="qtd">0</span>
+                            <span class="mais"><i class="fas fa-plus-circle"></i></span>
+                        </div>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="assets/img/produtos/Pão Artesano_Pullman.png" alt="Pão artesão">
+                        </figure>
+                        <h3>Pão artesão</h3>
+                        <div class="add-carinho">
+                            <span class="menos"><i class="fas fa-minus-circle"></i></span>
+                            <span class="qtd">0</span>
+                            <span class="mais"><i class="fas fa-plus-circle"></i></span>
+                        </div>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="assets/img/produtos/texas-seara.jpg" alt="Texas Seara">
+                        </figure>
+                        <h3>Texas Seara</h3>
+                        <div class="add-carinho">
+                            <span class="menos"><i class="fas fa-minus-circle"></i></span>
+                            <span class="qtd">0</span>
+                            <span class="mais"><i class="fas fa-plus-circle"></i></span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="top-produtos">
+                <h2>Ultimos Visitados</h2>
+                <hr>
+                <div class="produtos">
+                    <article>
+                        <figure>
+                            <img src="assets/img/produtos/presunto-sadia.jpg" alt="Presunto Sadia">
+                        </figure>
+                        <h3>Presunto</h3>
+                        <div class="add-carinho">
+                            <span class="menos"><i class="fas fa-minus-circle"></i></span>
+                            <span class="qtd">0</span>
+                            <span class="mais"><i class="fas fa-plus-circle"></i></span>
+                        </div>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="assets/img/produtos/empanado-seara.jpg" alt="Empanado Seara">
+                        </figure>
+                        <h3>Empanado Seara</h3>
+                        <div class="add-carinho">
+                            <span class="menos"><i class="fas fa-minus-circle"></i></span>
+                            <span class="qtd">0</span>
+                            <span class="mais"><i class="fas fa-plus-circle"></i></span>
+                        </div>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="assets/img/produtos/texas-seara.jpg" alt="Texas Seara">
+                        </figure>
+                        <h3>Texas Seara</h3>
+                        <div class="add-carinho">
+                            <span class="menos"><i class="fas fa-minus-circle"></i></span>
+                            <span class="qtd">0</span>
+                            <span class="mais"><i class="fas fa-plus-circle"></i></span>
+                        </div>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="assets/img/produtos/Pão Artesano_Pullman.png" alt="Pão artesão">
+                        </figure>
+                        <h3>Pão artesão</h3>
+                        <div class="add-carinho">
+                            <span class="menos"><i class="fas fa-minus-circle"></i></span>
+                            <span class="qtd">0</span>
+                            <span class="mais"><i class="fas fa-plus-circle"></i></span>
+                        </div>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="assets/img/produtos/texas-seara.jpg" alt="Texas Seara">
+                        </figure>
+                        <h3>Texas Seara</h3>
+                        <div class="add-carinho">
+                            <span class="menos"><i class="fas fa-minus-circle"></i></span>
+                            <span class="qtd">0</span>
+                            <span class="mais"><i class="fas fa-plus-circle"></i></span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <aside></aside>
+    </div>
+
+
+    <footer>
+      
+        <div class="max-largura">
+            <h2>Projeto Mercado</h2>
+            <ul>
+                <li>Links Rápidos</li>
+                <li><a href="!">Meus Pedidos</a></li>
+                <li><a href="!">Favoritos</a></li>
+                <li><a href="!">Cupons</a></li>
+                <li><a href="!">Convites</a></li>
+                <li><a href="!">Compras Sugeridas</a></li>
+                <li><a href="!">Sair</a></li>
+            </ul>
+
+            <ul>
+                <li>Projeto Mercado</li>
+                <li><a href="!">Suporte</a></li>
+                <li><a href="!">Faq</a></li>
+                <li><a href="!">Rgulamento</a></li>
+            </ul>
+
+            
+            <div class="institucional">
+                <div class="social">
+                    <a href><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-github"></i></a>
+                </div>
+                <address>Rua cenerino branco de araujo n° 30</address>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>

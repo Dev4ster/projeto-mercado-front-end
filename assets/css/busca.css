@@ -1,0 +1,39 @@
+main .busca{
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+main .busca .grupo-input{
+    display: flex;
+    flex-direction: column;
+}
+main .busca .grupo-input:nth-of-type(oddd){
+    margin-right: 20px;
+}
+main .busca .grupo-input:nth-of-type(even){
+    margin-left: 20px;
+}
+main .busca .grupo-input input[type=text], main .busca .grupo-input select{
+   height: 40px;
+   border: 1px #ddd solid;
+   margin-top: 10px;
+   padding-left: 10px;
+   width: 300px;
+}
+main .busca .grupo-input .busca-botao{
+    padding: 10px 50px;
+    background-color: #002d62;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    transition: all 0.5s;
+}
+
+main .busca .grupo-input .busca-botao:hover{
+    background-color: #004597;
+    cursor: pointer;
+}
